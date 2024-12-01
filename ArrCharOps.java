@@ -5,13 +5,6 @@ public class ArrCharOps {
         String str = "clearly";
         char[] arr1 = {'c','l','e','a','r','l','y'};
         char[] arr2 = {'U','n','d','e','r','s','t', 'o', 'o', 'd'};
-
-
-        char[] arr3 = "Somebody stop me".toCharArray();
-        subArray(arr3, 9, 16);
-
-
-
         System.out.println(str);  // Prints the string
         println(arr1);            // Prints an array of characters
         System.out.println(charAt(arr1,2));      
