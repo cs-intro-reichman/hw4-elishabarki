@@ -139,7 +139,6 @@ public class ArrCharOps {
         for (int i = beginIndex; i < endIndex; i++) {
             subArray[i-beginIndex] = arr[i];
         }
-        println(subArray);
         return subArray;
     }
 
