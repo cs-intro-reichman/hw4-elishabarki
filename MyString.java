@@ -30,7 +30,7 @@ public class MyString {
     public static boolean contains(String str1, String str2) {
         for (int i = 0; i <= str1.length()-str2.length(); i++) {
             int goodi = i;
-            for (int k = 0; k <= str2.length(); k++) {
+            for (int k = 0; k < str2.length(); k++) {
                 if (str2.charAt(k) != str1.charAt(goodi)) {
                     break;
                 }
@@ -40,6 +40,6 @@ public class MyString {
                 }
             }
         }
-        return false;
+        return str2.length() == 0;
     }
 }
